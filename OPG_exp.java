@@ -93,6 +93,8 @@ public class OPG_exp {
             System.out.println("RE");
             return;
         }
+        br.close();
+        r.close();
     }
 
     static Character get_top_vt(LinkedList<Character> stack){
