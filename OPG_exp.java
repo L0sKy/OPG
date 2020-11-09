@@ -21,7 +21,7 @@ public class OPG_exp {
         BufferedReader br = new BufferedReader(r);
         String exp = br.readLine();
         Character[] temp_top = new Character[3];
-        exp = exp.substring(0,exp.indexOf('\r'))+"#";
+        exp = exp+"#";
         LinkedList<Character> stack = new LinkedList<>();
         stack.add('#');
         for(Character c : exp.toCharArray()){
